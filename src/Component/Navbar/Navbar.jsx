@@ -16,7 +16,7 @@ export default function Navbar({loginData , loguot}) {
               <>
                 <ul className="navbar-nav me-auto pt-2 mb-2 mb-lg-0">
                   <li className="nav-item">
-                    <NavLink activeClassName="text-info" className="nav-link h6 px-2" to="/home">Home</NavLink>
+                    <NavLink activeClassName="text-info" className="nav-link h6 px-2" to="/MovieDB-By-React/home">Home</NavLink>
                   </li>
                   <li className="nav-item">
                     <NavLink activeClassName="text-info" className="nav-link h6 px-2" to="/about">About</NavLink>
