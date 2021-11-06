@@ -38,8 +38,8 @@ export default function App() {
       <Navbar loginData={loginData} loguot={loguot}/>
       <div className='container'>
         <Switch>
-          <Redirect exact from='/' to='/MovieDB-By-React/home'/>
-          <ProtectedRoute path='/MovieDB-By-React/home' exact component={Home} />
+          <Redirect exact from='/' to='/home'/>
+          <ProtectedRoute path='/home' exact component={Home} />
           <ProtectedRoute path='/about' component={About} />
           <ProtectedRoute path='/movies' exact component={Movies} />
           <ProtectedRoute path='/tvshows' exact component={Tvshows} />
